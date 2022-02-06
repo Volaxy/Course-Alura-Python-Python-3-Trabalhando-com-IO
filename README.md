@@ -66,3 +66,16 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 03 - Gerenciando o Contexto
 * Para trabalhar com um arquivo em um escopo do código usamos `with COMMAND as VARIABLE:`.
+
+## 04 - Conhecendo o Buffer &#x1F516;
+* Como funciona a leitura e a escrita de dados por baixo dos panos.
+* A classe `bytes`.
+* Como funciona o `buffer` de leitura e de escrita.
+
+### 01 - Buffers e Bytes
+* Ao ler um arquivo, o **Python** guarda as informações do arquivo no **buffer**, em seguida, ele envia as informações para o programa.
+* `b` antes de uma string para transforma-la em um texto em **bytes**.
+* Para tranformar uma string em um texto em **bytes** com uma codificação, usamos a função `bytes(TEXT, ENCODING)`.
+
+### 02 - Escrita com o Buffer
+* Escrever texto em bytes para um arquivo.
