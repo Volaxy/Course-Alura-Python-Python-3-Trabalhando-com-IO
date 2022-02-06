@@ -79,3 +79,24 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 02 - Escrita com o Buffer
 * Escrever texto em bytes para um arquivo.
+
+## 05 - Convertendo os Contatos &#x1F516;
+* Como utilizar os módulos `csv`, `json`, `pickle`.
+* Como serializar e desserializar objetos.
+* Como retornar o dicionário de atributos de um objeto.
+* Como desempacotar objetos com Python.
+
+### 01 - Do CSV para o Python
+* A função `csv.reader()` lê o conteúdo de um arquivo e transforma os dados em uma lista, com posições indexadas. 
+
+### 02 - Convertendo para Pickle
+* Um arquivo pickle é um arquivo binário que é entendido pelo **Python**.
+* Transformar objetos em dados **Pickle**, que são objetos serializados.
+* O parâmetro de leitura `wb`.
+* Somente sistemas desenvolvidos em **Python** conseguem desserializar arquivo em formato **pickle**.
+
+### 03 - Convertendo para Json
+* Para converter os dados para um arquivo **Json**, usamos a função `json.dump()`.
+* A função `__dict__` retorna uma representação do objeto como um dicionário.
+* Para converter um arquivo **Json** para dados, usamos a função `json.load()`.
+* Desempacotar uma variável no **Python**.
