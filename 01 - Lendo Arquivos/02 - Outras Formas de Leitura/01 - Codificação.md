@@ -1,0 +1,3 @@
+Vimos o `encoding` para abrir o arquivo com o `Latin 1`, porém, existem diversos outros tipos de encoding que poderíamos utilizar. Na documentação, tem uma seção especial sobre esses codecs. Quem quiser dar uma olhada, visite a [lista de codecs do Python](https://docs.python.org/3/library/codecs.html#standard-encodings) (em inglês).
+
+E para quem tiver curiosidade, confira a [tabela ASCII](https://upload.wikimedia.org/wikipedia/commons/d/dd/ASCII-Table.svg).
