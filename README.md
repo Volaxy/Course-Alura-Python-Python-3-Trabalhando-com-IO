@@ -49,3 +49,20 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 * `.seek(0)` para colocar o ponteiro no início do arquivo.
 * O **Python** ignora quebras de linha como o `\n`.
 * No modo `a+`, toda operação de `.seek()` é desfeita.
+
+## 03 - Boas Práticas e Exceções &#x1F516;
+* A importância de liberar um recurso.
+* Como gerenciar contextos utilizando a cláusula `with`.
+* Algumas exceções comuns ao se trabalhar com arquivos.
+* A diferença dos modos de escrita e de leitura na hora de abrir um arquivo que não existe.
+
+### 01 - Um Pouco de Concorrência
+* A boa prática depois de usar um arquivo é sempre fecha-lo.
+* Exceções no meio da aberta e fechamento dos arquivos.
+* Usar a estrutura `try finally`.
+
+### 02 - Exceções Comuns
+* Ao usar o modo de leitura `w` ou `a`, o **Python** cria um arquivo caso ele não exista.
+
+### 03 - Gerenciando o Contexto
+* Para trabalhar com um arquivo em um escopo do código usamos `with COMMAND as VARIABLE:`.
